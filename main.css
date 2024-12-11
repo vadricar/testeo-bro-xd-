@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "open-sans";
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "open-sans-itelic";
+    src: url(../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(36, 36, 36);
+    font-family: "open-sans";
+    display: flex;
+    justify-content: center;
+    
+}
+
+header{
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 85rem;
+background-color: rgb(32, 32, 32);
+margin-top: 4rem;
+border-radius: 14px;
+    
+}
+header h1{
+    font-size: 3.6rem;
+    color: #fefee8;
+    
+}
+.container{
+    margin-bottom: 4rem;
+}
+header{
+    padding-left: 5.2rem;
+    padding-right: 5.2rem;
+}
+header h1:hover{
+    color: rgb(180, 43, 43);
+    text-shadow: 1px 1px 10px black;
+}
+header p{
+    font-size: 2.2rem;
+    
+    margin-top: 2.4rem;
+    color: aliceblue;
+    margin-bottom: 2rem;
+    line-height: 1.4;
+    text-align: center;
+    transition: 0.3s;
+    
+}
+header p:hover{
+    transform: scale(1.1);
+}
+header p a:hover{
+    transform: scale(1.5);
+}
+header img{
+    width: 28rem;
+    transition: ease 0.3s;
+}
+header img:hover{
+    transform: scale(1.1);
+}
+header video{
+    border-radius: 12px;
+    transition: 0.3s;
+    
+}
+header video:hover{
+    box-shadow: 1px 1px 70px 1px black;
+}
+button{
+    padding: 2rem 10rem;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 4rem;
+    background-color: #cc9246bd;
+    font-family: "open-sans";
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: #a57638bd;
+    box-shadow: 0px 0px 5px 1px  #a57638bd;
+}
